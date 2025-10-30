@@ -9,7 +9,7 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/districts')
+    fetch('https://mgnrega-dashboard-v5ml.onrender.com/api/districts')
       .then(res => res.json())
       .then(setDistricts)
       .catch(err => console.error('Error fetching districts:', err));
@@ -18,7 +18,7 @@ function App() {
   const handleSelect = (d) => {
     setDistrict(d);
     if (d) {
-      fetch(`http://localhost:4000/api/district/${d}`)
+      fetch(`https://mgnrega-dashboard-v5ml.onrender.com/api/district/${d}`)
         .then(res => res.json())
         .then(setData)
         .catch(err => console.error('Error fetching data:', err));
