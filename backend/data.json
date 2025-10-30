@@ -1,0 +1,23 @@
+{
+  "Warangal": {
+    "workers": 245000,
+    "wages_paid_crore": 38.2,
+    "workdays_lakh": 18.4,
+    "trend": "up",
+    "monthly": [2.5, 2.8, 3.0, 3.4, 3.8, 4.2]
+  },
+  "Karimnagar": {
+    "workers": 198000,
+    "wages_paid_crore": 29.6,
+    "workdays_lakh": 14.2,
+    "trend": "down",
+    "monthly": [3.2, 3.0, 2.8, 2.6, 2.5, 2.3]
+  },
+  "Nizamabad": {
+    "workers": 152000,
+    "wages_paid_crore": 21.3,
+    "workdays_lakh": 12.5,
+    "trend": "up",
+    "monthly": [1.8, 2.0, 2.2, 2.4, 2.8, 3.0]
+  }
+}
